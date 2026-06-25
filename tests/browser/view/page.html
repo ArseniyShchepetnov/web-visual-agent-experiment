@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiple Elements Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .container {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin-bottom: 15px;
+      }
+      .header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .paragraph {
+        margin-bottom: 10px;
+      }
+      .button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+      }
+      .input-field {
+        padding: 8px;
+        border: 1px solid #ddd;
+        margin-right: 10px;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+      ol {
+        list-style-type: decimal;
+        margin-left: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .hidden-element {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" id="main-header">Welcome to Our Page!</div>
+      <p class="paragraph">
+        This is a simple paragraph of text to demonstrate various elements on a
+        webpage. It contains some <strong>bold text</strong> and some
+        <em>italic text</em>.
+      </p>
+      <p class="paragraph">
+        Here's another paragraph with a
+        <a href="https://www.example.com" target="_blank">link to Example.com</a
+        >.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2>Interactive Elements</h2>
+      <button class="button" id="myButton" onclick="alert('Button clicked!')">
+        Click Me
+      </button>
+      <br /><br />
+      <label for="nameInput">Enter your name:</label>
+    </div>
+  </body>
+</html>

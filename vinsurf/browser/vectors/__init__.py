@@ -1,0 +1,1 @@
+"""Vectorization of web pages."""
